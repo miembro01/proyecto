@@ -1,21 +1,86 @@
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;0,800;1,100;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Tienda</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div><a href="./index.html"><img src="./img/favicom.png" alt=""></a></div>
-
-        <nav>
-            <ul>
-                <li><a href="./index.html"></a></li>
-                <li><a href="./pages/contacto.html"></a></li>
-            </ul>
-        </nav>
+      <div class="div-logo"><a class="logo" href="./index.html"><img class="img-logo" src="./img/favicom.png" alt=""></a></div>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
-    <main></main>
-    <footer></footer>
-</body>
+
+    <main>
+      <h1 class="titulo-home text-secondary">Gracias por ingresar a nuestro sitio</h1>
+      <p class="parrafo">
+        Chapitas realizadas mediante impresión 3D
+      </p>
+
+      <section>
+        <h2 class="titulo-productos text-secondary">Algunos Productos</h2>
+        <div class="contenedor-tarjetas">
+          <article>
+            <img src="./img/gato.png" alt="imagen de una chapita con forma de cara de gato" />
+            <h3>Chapita Gato</h3>
+            <p>Chapita con forma de cara de gato</p>
+            <p>$6000</p>
+            <button class="btn bg-secondary text-dark">
+              Agregar al carrito
+            </button>
+          </article>
+
+          <article class="card text-dark">
+            <img src="./img/hueso chico.png" alt="imagen de una chapita con forma de hueso  chico" />
+            <h3>Chapita Hueso Chico</h3>
+            <p>Chapita con forma de hueso chico</p>
+            <p>$6000</p>
+            <button class="btn bg-secondary text-dark">
+              Agregar al carrito
+            </button>
+          </article>
+
+          <article class="card text-dark">
+            <img src="./img/Hueso mediana.png" alt="imagen de una chapita con forma de hueso mediano" />
+            <h3>Chapita Hueso Mediano</h3>
+            <p>Chapita con forma de hueso mediano</p>
+            <p>$6000</p>
+            <button class="btn bg-secondary text-dark">
+              Agregar al carrito
+            </button>
+          </article>
+
+          <article class="card text-dark">
+            <img src="./img/hueso grande.png" alt="imagen de una chapita con forma de hueso grande" />
+            <h3>Chapita Hueso Grande</h3>
+            <p>Chapita con forma de hueso grande</p>
+            <p>$6000</p>
+            <button class="btn bg-secondary text-dark">
+              Agregar al carrito
+            </button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Sitio realizado por Mati para Pre Entrega</p>
+      <nav>
+        <ul class="footer-list">
+          <li><img class="img-redes" src="./img/whatsapp.png" alt="logo-whatsapp" /></li>
+          <li><img class="img-redes" src="./img/social.png" alt="logo-instagram" /></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
