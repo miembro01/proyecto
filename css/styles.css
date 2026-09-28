@@ -78,7 +78,11 @@ footer {
   font-size: 3rem;
   color: inherit;
   display: inline-block;
-  padding: 2rem;
+  padding: 1rem;
+}
+
+.header-nav{
+  margin-right:2rem
 }
 
 img {
@@ -91,3 +95,11 @@ img {
 .img-redes {
   width: 3rem;
 }
+
+.contenedor-tarjetas{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
