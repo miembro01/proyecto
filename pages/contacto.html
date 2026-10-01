@@ -22,10 +22,24 @@
       </nav>
     </header>
     <main>
-      <h1 class="titulo-home text-secondary">Bienvenida a la pagina de contacto</h1>
-      <p class="parrafo">
-        Opciones de contacto
-      </p>
+      <section class="contacto"></section>
+        <h1 class="titulo-contacto text-secondary">Bienvenida a la pagina de contacto</h1>
+        <p class="parrafo">
+          Opciones de contacto
+        </p>
+        <form class="form-contacto" action="" method="POST">
+          <div class="grupo-input">
+            <label for="email"> Tu email: </label>
+            <input id="email" type="email" name="email" />
+          </div>
+
+          <div class="grupo-input">
+            <label for="mensaje"> Tu Mensaje: </label>
+            <textarea id="mensaje" name="message"></textarea>
+          </div>
+          <button class="btn bg-secondary text-dark" type="submit">Enviar</button>
+        </form>
+      </section>
     </main>
 
     <footer>
